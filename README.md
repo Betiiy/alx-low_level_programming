@@ -1,2 +1,2 @@
-C Hellow world
- Task 2 assembler
+C Hello world
+task 3 name
