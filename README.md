@@ -1,2 +1,2 @@
-C Hello world
-task 3 name
+C hello world 
+task 4 puts
