@@ -4,7 +4,7 @@
 /* positive or negative  */
 
 /* main - Entry point  */
-int main(void)
+int main(void)  /* main function to print */
 {
 int n;
 
