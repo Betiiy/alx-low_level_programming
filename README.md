@@ -1,2 +1,2 @@
-C Hello world
-Task 5 printf
+C variables
+Task 0
