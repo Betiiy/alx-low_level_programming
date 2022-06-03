@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/* positive or negative  */
 
-/* betty style doc for function main goes there */
-/* main - Entry point */
-int main(void) 
+/* main - Entry point  */
+int main(void)
 {
 int n;
 
