@@ -5,7 +5,7 @@
 * main -entry point
 *description - a program that prints minimum combinations
 * of two digit number followed by newline
-* return - always zero (success)
+* Return: Always 0.
 */
 int main(void)
 {
@@ -24,5 +24,6 @@ putchar(',');
 putchar(' ');
 }
 }
+putchar('\n');
 return (0);
 }
