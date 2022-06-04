@@ -14,10 +14,11 @@ for (x = 0 ; x < 10 ; x++)
 {
 for (y = 0 ; y < 9; y++)
 {
-for (z = y + 1 ; z < 10; z++)   
+for (z = y + 1 ; z < 10; z++)
 {
 putchar((x % 10) + '0');
 putchar((y % 10) + '0');
+putchar(' ');
 putchar((x % 10) + '0');
 putchar((z % 10) + '0');
 
