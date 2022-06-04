@@ -9,30 +9,26 @@
 */
 int main(void)
 {
-int x, y, z, b;
-for (x = 0 ; x < 10 ; x++)
-{
-for (y = 0 ; y < 10; y++)
-{
-for (z = 0 ; z < 10; z++)
-{
-for (b = 0 ; b < 10; b++)
-{
-putchar((x % 10) + '0');
-putchar((y % 10) + '0');
-putchar(' ');
-putchar((z % 10) + '0');
-putchar((b % 10) + '0');
+	int x, y;
 
-if (x == 9 && y == 8 && z == 9 && b == 9)
-continue;
+	for (x = 0; x <= 98; x++)
+	{
+		for (y = x + 1; y <= 99; y++)
+		{
+			putchar((x / 10) + '0');
+			putchar((x % 10) + '0');
+			putchar(' ');
+			putchar((y / 10) + '0');
+			putchar((y % 10) + '0');
 
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
+			if (x == 98 && y == 99)
+				continue;
+
+			putchar(',');
+			putchar(' ');
+		}
+	}
+
 putchar('\n');
 return (0);
 }
