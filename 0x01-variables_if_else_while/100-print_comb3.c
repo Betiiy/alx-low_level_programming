@@ -1,28 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-
+* main -entry point
+*description - a program that prints minimum combinations
+* of two digit number followed by newline
+*/
 int main(void)
 {
-int d;
+int x,y;
+for (int x=0 ; x<9 ; x++){
+for (int y=x+1 ;y < 10; y++){
+putchar((x%10)+ '0');
+putchar((y%10)+ '0');
 
-for (d = 0; d < 100; d++)
-{
-putchar((d / 10) + '0');
-putchar((d % 10) + '0');
-if (d != 99)
-{
+if (x==8 && y==9)
+continue;
+
 putchar(',');
 putchar(' ');
 }
 }
-putchar('\n');
 
-return (0);
+
 }
