@@ -9,24 +9,27 @@
 */
 int main(void)
 {
-int x, y, z;
+int x, y, z, b;
 for (x = 0 ; x < 10 ; x++)
 {
-for (y = 0 ; y < 9; y++)
+for (y = 0 ; y < 10; y++)
 {
-for (z = y + 1 ; z < 10; z++)
+for (z = 0 ; z < 10; z++)
+{
+for (b = 0 ; b < 10; b++)
 {
 putchar((x % 10) + '0');
 putchar((y % 10) + '0');
 putchar(' ');
-putchar((x % 10) + '0');
 putchar((z % 10) + '0');
+putchar((b % 10) + '0');
 
-if (x == 9 && y == 8 && z == 9)
+if (x == 9 && y == 8 && z == 9 && b == 9)
 continue;
 
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
