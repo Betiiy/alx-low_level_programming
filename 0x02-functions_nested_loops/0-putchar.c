@@ -5,7 +5,7 @@
  * main - entry point
  * description- a program that prints _putchar, followed by new line.
  *
- * returns - (0)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
