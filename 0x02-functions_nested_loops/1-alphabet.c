@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - entry point
- * description- a function that prints the alphabet, in lowercase, followed by a new line.
+ * print_alphabet - entry point
+ * description- a function that prints the alphabet, in lowercase.
  *
  * Return: Always 0 (Success)
  */
