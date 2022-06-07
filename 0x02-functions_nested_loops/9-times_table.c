@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * jack_bauer - entry point
- * description - a function that prints every minutes of a day.
+ * times_table - entry point
+ * description - a function that prints times table.
  *
  * Return: Always 0 (Success)
  */
