@@ -4,7 +4,7 @@
 /**
  * jack_bauer - entry point
  * description - a function that prints every minutes of a day.
- * 
+ *
  * Return: Always 0 (Success)
  */
 
