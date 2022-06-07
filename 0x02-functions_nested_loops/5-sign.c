@@ -4,7 +4,7 @@
 /**
  * print_sign - entry point
  * description - a function that prints the sign of a number.
- * @n : integer tp print the sign 
+ * @n : integer tp print the sign
  * Return: Always 0 (Success)
  */
 
@@ -20,9 +20,10 @@ else if (n < 0)
 _putchar('-');
 return (-1);
 }
-else{
+else
+{
 _putchar('0');
 return (0);
 }
-return 0;
+return (0);
 }
