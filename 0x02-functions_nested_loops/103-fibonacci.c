@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int i, sum = 0;
-	int fib[50];
+	int i;
+	long int fib[50], sum = 2;
 
 	fib[0] = 1;
 	fib[1] = 2;
@@ -21,7 +21,7 @@ int main(void)
         sum += fib[i];
 		
 	}
-    printf("%d", sum);
+    printf("%d\n", sum);
 
 	return (0);
 }
